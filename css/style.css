@@ -1,0 +1,11 @@
+#accordeon {
+align-content: horizontal ;
+
+}
+
+#accordeon__li {
+width: 107px;
+background-color: #eee;
+list-style-type: none;
+
+}
