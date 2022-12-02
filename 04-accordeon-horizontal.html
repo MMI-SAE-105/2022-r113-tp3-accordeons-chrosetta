@@ -4,13 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="style.css">
     <title>Accordéon horizontal</title>
 
     <style>
       ul {
         list-style-type: none;
       }
+
+      #accordeon {
+        margin: 0;
+        padding: 0;
+      }
+      #accordeon__li{
+        display: inline-block;
+        background-color: #eee;
+        width: 107px;
+        overflow: hidden;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        
+      }
+    
     </style>
   </head>
   <body>
