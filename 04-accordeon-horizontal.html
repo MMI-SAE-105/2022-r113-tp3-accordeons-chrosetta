@@ -27,16 +27,23 @@
 }
 
 #accordeon li.actif {
+  width: 317px;
     /* largeur de l'élément déplié 317px */
 }
 
 #accordeon li figure {
+  margin: 0%;
+  display: flex;
+
     /* pour éviter les marges par défaut */
     /* pour que les éléments soient alignés horizontalement */
     /* largeur de l'élément intrérieur de 317px (= déplié) */
 }
 
 #accordeon li figure figcaption {
+  width: 200px;
+  padding: 10px;
+  vertical-align: auto;
     /* largeur du texte de 200px */
     /* pour espacer le texte, padding de 10px */
     /* pour que les éléments soient alignés verticalement */
@@ -46,6 +53,8 @@
 
 /* Sur tous les enfants de figcation */
 #accordeon li figure figcaption > * {
+  margin: 0%;
+  padding: auto;
     /* pour éviter les marges par défaut */
     /* pour éviter les "padding" par défaut */
 }
