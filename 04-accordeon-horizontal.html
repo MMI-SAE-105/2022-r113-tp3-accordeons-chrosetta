@@ -64,11 +64,11 @@
   </head>
   <body>
     <h1>Accordéon horizontal</h1>
-    <ul id="accordeon">
+    <ul id="accordeon" x-data="{open: false}">
       <li class="accordeon__li">
-        <figure>
+        <figure @click="open== 1">
           <img src="https://picsum.photos/100?random=1" alt="" width="102">
-          <figcaption>
+          <figcaption x-show="open = 1">
             <h3>Lorem, ipsum dolor.</h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </figcaption>
